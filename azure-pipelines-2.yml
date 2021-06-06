@@ -2,8 +2,6 @@ trigger:
 - '*'
 
 pool: Mac
-  demands:
-    - npm
 
 steps:
 - task: UseDotNet@2
